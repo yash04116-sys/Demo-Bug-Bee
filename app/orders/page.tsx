@@ -1,0 +1,2 @@
+import { ArrowUpRight } from "lucide-react";
+export default function OrdersPage() { return <main className="app-main inner-page"><p className="eyebrow">FIELDWORK / YOUR ACCOUNT</p><h1>Order history<span className="title-period">.</span></h1><p className="lead">A sample order to test the tracking experience.</p><a className="order-card" href="/orders/FW-1042"><span><small>ORDER FW-1042 · SEPT 12, 2026</small><strong>The Field Kit + The Trail Lamp</strong><em>2 items · $134.00</em></span><span>View order <ArrowUpRight size={18} /></span></a></main>; }
